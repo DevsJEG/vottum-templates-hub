@@ -16,7 +16,8 @@ const config: Config = {
         secondarytext: 'rgba(107, 114, 128, 1)',
         customblue: 'rgba(79, 70, 229, 1)',
         customdarkblue: 'rgba(0, 2, 142, 1)',
-        link:"rgba(55, 65, 81, 1)"
+        link:"rgba(55, 65, 81, 1)",
+        gray: "rgba(243, 244, 246, 1)",
       },
       letterSpacing: {
         large:  '.05em'
