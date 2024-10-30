@@ -7,7 +7,7 @@ const Templates: React.FC = () => {
 
 
     return (
-        <div className=" bg-gray ">
+        <div className=" bg-grayAlpha ">
             <div className='m-auto max-w-[1100px] py-20'>
                 <h4 className='pl-4'>Featured Templates</h4>
                 <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-4 '>
