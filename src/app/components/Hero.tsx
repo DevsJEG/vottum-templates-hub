@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
                     <button className="bg-gradient-to-r from-customblue to-customdarkblue  text-white font-semibold py-3 px-4 rounded hover:bg-purple-700 transition">
                         Explore All Available Templates
                     </button>
-                    <button className="bg-slate-950 flex items-center bg-white border border-purple-600 text-white font-semibold py-3 px-4 rounded hover:bg-customblue hover:text-white transition">
+                    <button className="bg-black flex items-center border border-purple-600 text-white font-semibold py-3 px-4 rounded hover:bg-customblue hover:text-white transition">
                         Documentation
                         <IoIosArrowForward className="ml-2" />
                     </button>

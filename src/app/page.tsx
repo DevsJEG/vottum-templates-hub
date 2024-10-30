@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 
 export default function Home() {
   return (
-    <div className="grid items-center p-8 pb-20 gap-16 font-[family-name:var(--font-geist-sans)]">
+    <div className="grid items-center pb-20 gap-16 font-[family-name:var(--font-geist-sans)]">
       <Navbar />
       <Hero />
       <Templates />
