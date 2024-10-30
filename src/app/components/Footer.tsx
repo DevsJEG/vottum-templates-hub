@@ -16,10 +16,10 @@ const Footer: React.FC = () => {
         <form className="flex">
           <input
             type="email"
-            placeholder="Your email address"
+            placeholder="Enter your email address"
             className="flex-grow p-2 rounded-l-lg border border-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-600"
           />
-          <button className="bg-purple-600 text-white p-2 rounded-r-lg hover:bg-purple-700 transition">
+          <button className="bg-primary text-white p-2 rounded-r-lg hover:bg-purple-700 transition">
             Subscribe
           </button>
         </form>

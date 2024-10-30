@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <nav className="flex justify-between items-center  p-4">
-      <div className="logo bg-purple-600  text-white">
+      <div className="logo bg-purple-600  text-white bg-primary">
         <h1 className="text-lg font-bold">VTH</h1>
       </div>
       <div className="flex items-center space-x-4">
