@@ -2,7 +2,8 @@
 "use client"
 import { useState } from 'react';
 import Link from 'next/link';
-
+import { IoIosArrowDown } from "react-icons/io";
+import { IoSunnyOutline } from "react-icons/io5";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -12,17 +13,17 @@ const Navbar = () => {
 
   return (
     <nav className="flex justify-between items-center  p-4">
-      <div className="logo bg-purple-600  text-white bg-primary">
+      <div className="logo bg-primarytext text-white bg-primarytext px-4 ">
         <h1 className="text-lg font-bold">VTH</h1>
       </div>
       <div className="flex items-center space-x-4">
-        <Link href="/login" className="hover:underline">Login</Link>
-        <Link href="/contact" className="hover:underline">Contact Us</Link>
-        <Link href="/templates" className="hover:underline">Templates</Link>
-        <Link href="/pricing" className="hover:underline">Pricing</Link>
+        <Link href="/login" className="hover:underline text-link px-2">Login</Link>
+        <Link href="/contact" className="hover:underline text-link px-2">Contact Us</Link>
+        <Link href="/templates" className="hover:underline text-link px-2">Templates</Link>
+        <Link href="/pricing" className="hover:underline text-link px-2">Pricing</Link>
         <div className="relative">
-          <button onClick={toggleDropdown} className="hover:underline">
-            Resources
+          <button onClick={toggleDropdown} className="hover:underline text-link px-2 flex items-center">
+            Resources <IoIosArrowDown/>
           </button>
           {isOpen && (
             <div className="absolute right-0 mt-2 w-48 bg-white text-black shadow-lg rounded-lg">
@@ -32,6 +33,7 @@ const Navbar = () => {
             </div>
           )}
         </div>
+        <IoSunnyOutline />
       </div>
     </nav>
   );

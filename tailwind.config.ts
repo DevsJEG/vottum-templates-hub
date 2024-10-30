@@ -11,10 +11,16 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        primary: "rgba(0, 2, 142, 1)",
+        primarytext: "rgba(0, 2, 142, 1)",
         primaryalpha: "rgba(238, 242, 255, 1)",
-        secondarytext: 'rgba(107, 114, 128, 1)'
+        secondarytext: 'rgba(107, 114, 128, 1)',
+        customblue: 'rgba(79, 70, 229, 1)',
+        customdarkblue: 'rgba(0, 2, 142, 1)',
+        link:"rgba(55, 65, 81, 1)"
       },
+      letterSpacing: {
+        large:  '.05em'
+      }
     },
   },
   plugins: [],

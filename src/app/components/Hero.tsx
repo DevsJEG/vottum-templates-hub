@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
         Built with Solidity, ERC standards, and React for instant compatibility and smooth integration with Vottun’s ecosystem.
       </p>
       <div className="space-x-4 flex">
-        <button className="bg-primary text-white font-semibold py-2 px-4 rounded hover:bg-purple-700 transition">
+        <button className="bg-gradient-to-r from-customblue to-customdarkblue  text-white font-semibold py-2 px-4 rounded hover:bg-purple-700 transition">
           Explore All Available Templates
         </button>
         <button className="bg-black flex items-center bg-white border border-purple-600 text-white font-semibold py-2 px-4 rounded hover:bg-purple-600 hover:text-white transition">
